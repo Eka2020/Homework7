@@ -1,15 +1,6 @@
 package com.company;
 
-public class Hero extends GameObject {
+public abstract class Hero extends GameObject implements Superpowerable {
 
-    private int attakType;
-
-    public int getAttakType() {
-        return attakType;
-    }
-
-    public void setAttakType(int attakType) {
-        this.attakType = attakType;
-    }
-
+    public abstract void superPower();
 }
